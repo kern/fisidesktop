@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAEB2495198C7EFF00433EF7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEB2494198C7EFF00433EF7 /* Cocoa.framework */; };
+		FAEB249F198C7EFF00433EF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAEB249D198C7EFF00433EF7 /* InfoPlist.strings */; };
+		FAEB24A1198C7EFF00433EF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB24A0198C7EFF00433EF7 /* main.m */; };
+		FAEB24A5198C7EFF00433EF7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FAEB24A3198C7EFF00433EF7 /* Credits.rtf */; };
+		FAEB24A8198C7EFF00433EF7 /* FISIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB24A7198C7EFF00433EF7 /* FISIAppDelegate.m */; };
+		FAEB24AB198C7EFF00433EF7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAEB24A9198C7EFF00433EF7 /* MainMenu.xib */; };
+		FAEB24AD198C7EFF00433EF7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAEB24AC198C7EFF00433EF7 /* Images.xcassets */; };
+		FAEB24B4198C7F0000433EF7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEB24B3198C7F0000433EF7 /* XCTest.framework */; };
+		FAEB24B5198C7F0000433EF7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEB2494198C7EFF00433EF7 /* Cocoa.framework */; };
+		FAEB24BD198C7F0000433EF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAEB24BB198C7F0000433EF7 /* InfoPlist.strings */; };
+		FAEB24BF198C7F0000433EF7 /* fisidesktopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB24BE198C7F0000433EF7 /* fisidesktopTests.m */; };
+		FAEB24CA198C7F1A00433EF7 /* FISIImageRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB24C9198C7F1A00433EF7 /* FISIImageRequester.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAEB24B6198C7F0000433EF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAEB2489198C7EFF00433EF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAEB2490198C7EFF00433EF7;
+			remoteInfo = fisidesktop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAEB2491198C7EFF00433EF7 /* fisidesktop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fisidesktop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEB2494198C7EFF00433EF7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FAEB2497198C7EFF00433EF7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FAEB2498198C7EFF00433EF7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FAEB2499198C7EFF00433EF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAEB249C198C7EFF00433EF7 /* fisidesktop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fisidesktop-Info.plist"; sourceTree = "<group>"; };
+		FAEB249E198C7EFF00433EF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAEB24A0198C7EFF00433EF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAEB24A2198C7EFF00433EF7 /* fisidesktop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fisidesktop-Prefix.pch"; sourceTree = "<group>"; };
+		FAEB24A4198C7EFF00433EF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		FAEB24A6198C7EFF00433EF7 /* FISIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FISIAppDelegate.h; sourceTree = "<group>"; };
+		FAEB24A7198C7EFF00433EF7 /* FISIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FISIAppDelegate.m; sourceTree = "<group>"; };
+		FAEB24AA198C7EFF00433EF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FAEB24AC198C7EFF00433EF7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FAEB24B2198C7F0000433EF7 /* fisidesktopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fisidesktopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEB24B3198C7F0000433EF7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FAEB24BA198C7F0000433EF7 /* fisidesktopTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fisidesktopTests-Info.plist"; sourceTree = "<group>"; };
+		FAEB24BC198C7F0000433EF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAEB24BE198C7F0000433EF7 /* fisidesktopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fisidesktopTests.m; sourceTree = "<group>"; };
+		FAEB24C8198C7F1A00433EF7 /* FISIImageRequester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISIImageRequester.h; sourceTree = "<group>"; };
+		FAEB24C9198C7F1A00433EF7 /* FISIImageRequester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISIImageRequester.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAEB248E198C7EFF00433EF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEB2495198C7EFF00433EF7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEB24AF198C7F0000433EF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEB24B5198C7F0000433EF7 /* Cocoa.framework in Frameworks */,
+				FAEB24B4198C7F0000433EF7 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAEB2488198C7EFF00433EF7 = {
+			isa = PBXGroup;
+			children = (
+				FAEB249A198C7EFF00433EF7 /* fisidesktop */,
+				FAEB24B8198C7F0000433EF7 /* fisidesktopTests */,
+				FAEB2493198C7EFF00433EF7 /* Frameworks */,
+				FAEB2492198C7EFF00433EF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAEB2492198C7EFF00433EF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAEB2491198C7EFF00433EF7 /* fisidesktop.app */,
+				FAEB24B2198C7F0000433EF7 /* fisidesktopTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAEB2493198C7EFF00433EF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAEB2494198C7EFF00433EF7 /* Cocoa.framework */,
+				FAEB24B3198C7F0000433EF7 /* XCTest.framework */,
+				FAEB2496198C7EFF00433EF7 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAEB2496198C7EFF00433EF7 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAEB2497198C7EFF00433EF7 /* AppKit.framework */,
+				FAEB2498198C7EFF00433EF7 /* CoreData.framework */,
+				FAEB2499198C7EFF00433EF7 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FAEB249A198C7EFF00433EF7 /* fisidesktop */ = {
+			isa = PBXGroup;
+			children = (
+				FAEB24A6198C7EFF00433EF7 /* FISIAppDelegate.h */,
+				FAEB24A7198C7EFF00433EF7 /* FISIAppDelegate.m */,
+				FAEB24C8198C7F1A00433EF7 /* FISIImageRequester.h */,
+				FAEB24C9198C7F1A00433EF7 /* FISIImageRequester.m */,
+				FAEB24A9198C7EFF00433EF7 /* MainMenu.xib */,
+				FAEB24AC198C7EFF00433EF7 /* Images.xcassets */,
+				FAEB249B198C7EFF00433EF7 /* Supporting Files */,
+			);
+			path = fisidesktop;
+			sourceTree = "<group>";
+		};
+		FAEB249B198C7EFF00433EF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAEB249C198C7EFF00433EF7 /* fisidesktop-Info.plist */,
+				FAEB249D198C7EFF00433EF7 /* InfoPlist.strings */,
+				FAEB24A0198C7EFF00433EF7 /* main.m */,
+				FAEB24A2198C7EFF00433EF7 /* fisidesktop-Prefix.pch */,
+				FAEB24A3198C7EFF00433EF7 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAEB24B8198C7F0000433EF7 /* fisidesktopTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAEB24BE198C7F0000433EF7 /* fisidesktopTests.m */,
+				FAEB24B9198C7F0000433EF7 /* Supporting Files */,
+			);
+			path = fisidesktopTests;
+			sourceTree = "<group>";
+		};
+		FAEB24B9198C7F0000433EF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAEB24BA198C7F0000433EF7 /* fisidesktopTests-Info.plist */,
+				FAEB24BB198C7F0000433EF7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAEB2490198C7EFF00433EF7 /* fisidesktop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAEB24C2198C7F0000433EF7 /* Build configuration list for PBXNativeTarget "fisidesktop" */;
+			buildPhases = (
+				FAEB248D198C7EFF00433EF7 /* Sources */,
+				FAEB248E198C7EFF00433EF7 /* Frameworks */,
+				FAEB248F198C7EFF00433EF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fisidesktop;
+			productName = fisidesktop;
+			productReference = FAEB2491198C7EFF00433EF7 /* fisidesktop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAEB24B1198C7F0000433EF7 /* fisidesktopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAEB24C5198C7F0000433EF7 /* Build configuration list for PBXNativeTarget "fisidesktopTests" */;
+			buildPhases = (
+				FAEB24AE198C7F0000433EF7 /* Sources */,
+				FAEB24AF198C7F0000433EF7 /* Frameworks */,
+				FAEB24B0198C7F0000433EF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAEB24B7198C7F0000433EF7 /* PBXTargetDependency */,
+			);
+			name = fisidesktopTests;
+			productName = fisidesktopTests;
+			productReference = FAEB24B2198C7F0000433EF7 /* fisidesktopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAEB2489198C7EFF00433EF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FISI;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Kern.io;
+				TargetAttributes = {
+					FAEB24B1198C7F0000433EF7 = {
+						TestTargetID = FAEB2490198C7EFF00433EF7;
+					};
+				};
+			};
+			buildConfigurationList = FAEB248C198C7EFF00433EF7 /* Build configuration list for PBXProject "fisidesktop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAEB2488198C7EFF00433EF7;
+			productRefGroup = FAEB2492198C7EFF00433EF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAEB2490198C7EFF00433EF7 /* fisidesktop */,
+				FAEB24B1198C7F0000433EF7 /* fisidesktopTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAEB248F198C7EFF00433EF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEB249F198C7EFF00433EF7 /* InfoPlist.strings in Resources */,
+				FAEB24AD198C7EFF00433EF7 /* Images.xcassets in Resources */,
+				FAEB24A5198C7EFF00433EF7 /* Credits.rtf in Resources */,
+				FAEB24AB198C7EFF00433EF7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEB24B0198C7F0000433EF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEB24BD198C7F0000433EF7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAEB248D198C7EFF00433EF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEB24A1198C7EFF00433EF7 /* main.m in Sources */,
+				FAEB24A8198C7EFF00433EF7 /* FISIAppDelegate.m in Sources */,
+				FAEB24CA198C7F1A00433EF7 /* FISIImageRequester.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEB24AE198C7F0000433EF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEB24BF198C7F0000433EF7 /* fisidesktopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAEB24B7198C7F0000433EF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAEB2490198C7EFF00433EF7 /* fisidesktop */;
+			targetProxy = FAEB24B6198C7F0000433EF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAEB249D198C7EFF00433EF7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAEB249E198C7EFF00433EF7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FAEB24A3198C7EFF00433EF7 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAEB24A4198C7EFF00433EF7 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		FAEB24A9198C7EFF00433EF7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAEB24AA198C7EFF00433EF7 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		FAEB24BB198C7F0000433EF7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAEB24BC198C7F0000433EF7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAEB24C0198C7F0000433EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FAEB24C1198C7F0000433EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FAEB24C3198C7F0000433EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fisidesktop/fisidesktop-Prefix.pch";
+				INFOPLIST_FILE = "fisidesktop/fisidesktop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FAEB24C4198C7F0000433EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fisidesktop/fisidesktop-Prefix.pch";
+				INFOPLIST_FILE = "fisidesktop/fisidesktop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FAEB24C6198C7F0000433EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/fisidesktop.app/Contents/MacOS/fisidesktop";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fisidesktop/fisidesktop-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "fisidesktopTests/fisidesktopTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FAEB24C7198C7F0000433EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/fisidesktop.app/Contents/MacOS/fisidesktop";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fisidesktop/fisidesktop-Prefix.pch";
+				INFOPLIST_FILE = "fisidesktopTests/fisidesktopTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAEB248C198C7EFF00433EF7 /* Build configuration list for PBXProject "fisidesktop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEB24C0198C7F0000433EF7 /* Debug */,
+				FAEB24C1198C7F0000433EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAEB24C2198C7F0000433EF7 /* Build configuration list for PBXNativeTarget "fisidesktop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEB24C3198C7F0000433EF7 /* Debug */,
+				FAEB24C4198C7F0000433EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAEB24C5198C7F0000433EF7 /* Build configuration list for PBXNativeTarget "fisidesktopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEB24C6198C7F0000433EF7 /* Debug */,
+				FAEB24C7198C7F0000433EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAEB2489198C7EFF00433EF7 /* Project object */;
+}
