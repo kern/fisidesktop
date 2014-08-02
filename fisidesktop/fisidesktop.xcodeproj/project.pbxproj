@@ -162,9 +162,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FAEB2490198C7EFF00433EF7 /* fisidesktop */ = {
+		FAEB2490198C7EFF00433EF7 /* FISI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FAEB24C2198C7F0000433EF7 /* Build configuration list for PBXNativeTarget "fisidesktop" */;
+			buildConfigurationList = FAEB24C2198C7F0000433EF7 /* Build configuration list for PBXNativeTarget "FISI" */;
 			buildPhases = (
 				FAEB248D198C7EFF00433EF7 /* Sources */,
 				FAEB248E198C7EFF00433EF7 /* Frameworks */,
@@ -174,7 +174,7 @@
 			);
 			dependencies = (
 			);
-			name = fisidesktop;
+			name = FISI;
 			productName = fisidesktop;
 			productReference = FAEB2491198C7EFF00433EF7 /* fisidesktop.app */;
 			productType = "com.apple.product-type.application";
@@ -225,7 +225,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FAEB2490198C7EFF00433EF7 /* fisidesktop */,
+				FAEB2490198C7EFF00433EF7 /* FISI */,
 				FAEB24B1198C7F0000433EF7 /* fisidesktopTests */,
 			);
 		};
@@ -277,7 +277,7 @@
 /* Begin PBXTargetDependency section */
 		FAEB24B7198C7F0000433EF7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FAEB2490198C7EFF00433EF7 /* fisidesktop */;
+			target = FAEB2490198C7EFF00433EF7 /* FISI */;
 			targetProxy = FAEB24B6198C7F0000433EF7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -466,7 +466,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FAEB24C2198C7F0000433EF7 /* Build configuration list for PBXNativeTarget "fisidesktop" */ = {
+		FAEB24C2198C7F0000433EF7 /* Build configuration list for PBXNativeTarget "FISI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FAEB24C3198C7F0000433EF7 /* Debug */,

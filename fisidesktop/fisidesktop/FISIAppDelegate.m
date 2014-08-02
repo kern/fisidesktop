@@ -4,7 +4,7 @@
 @implementation FISIAppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    const int pollSeconds = 1;
+    const int pollSeconds = 5 * 60;
     
     FISIImageRequester *requester = [[FISIImageRequester alloc] init];
     [requester refresh];
