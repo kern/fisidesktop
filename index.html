@@ -27,23 +27,26 @@
     </head>
 
     <body>
-        <script>
-            function rand(min, max) {
-                return min + Math.random() * (max - min);
-            }
+        <div class="container" id="container">
+            <script>
+                function rand(min, max) {
+                    return min + Math.random() * (max - min);
+                }
 
-            function randomColor() {
-                var h = rand(1, 360);
-                var s = rand(50, 100);
-                var l = rand(25, 30);
-                return 'hsl(' + h + ',' + s + '%,' + l + '%)';
-            }
+                function randomColor() {
+                    var h = rand(1, 360);
+                    var s = rand(50, 100);
+                    var l = rand(25, 30);
+                    return 'hsl(' + h + ',' + s + '%,' + l + '%)';
+                }
 
-            document.body.style.background = randomColor();
-        </script>
+                document.body.style.background = randomColor();
 
-        <div class="container">
-            <img src="/png" alt="Fuck it, Ship it" />
+                var img = document.createElement("img");
+                img.setAttribute('src', '/png?' + rand(0, 100000));
+                img.setAttribute('alt', 'Fuck it, Ship it');
+                document.getElementById('container').appendChild(img);
+            </script>
 
             <h1 hidden>Fuck it, Ship it</h1>
             <h2>for your Desktop</h2>
