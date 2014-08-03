@@ -19,7 +19,16 @@
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
         <menu id="GET-xm-Lxk">
             <items>
+                <menuItem title="Refresh" id="pjJ-DK-m25">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="refreshClicked:" target="Voe-Tx-rLC" id="miw-Kc-WWF"/>
+                    </connections>
+                </menuItem>
                 <menuItem title="Quit" id="SmU-jK-Tg3">
+                    <string key="keyEquivalent" base64-UTF8="YES">
+Gw
+</string>
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
                         <action selector="terminate:" target="-3" id="Xun-8o-UMt"/>

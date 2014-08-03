@@ -32,7 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FAEB2491198C7EFF00433EF7 /* fisidesktop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fisidesktop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEB2491198C7EFF00433EF7 /* FISI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FISI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAEB2494198C7EFF00433EF7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		FAEB2497198C7EFF00433EF7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		FAEB2498198C7EFF00433EF7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -89,7 +89,7 @@
 		FAEB2492198C7EFF00433EF7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FAEB2491198C7EFF00433EF7 /* fisidesktop.app */,
+				FAEB2491198C7EFF00433EF7 /* FISI.app */,
 				FAEB24B2198C7F0000433EF7 /* fisidesktopTests.xctest */,
 			);
 			name = Products;
@@ -176,7 +176,7 @@
 			);
 			name = FISI;
 			productName = fisidesktop;
-			productReference = FAEB2491198C7EFF00433EF7 /* fisidesktop.app */;
+			productReference = FAEB2491198C7EFF00433EF7 /* FISI.app */;
 			productType = "com.apple.product-type.application";
 		};
 		FAEB24B1198C7F0000433EF7 /* fisidesktopTests */ = {
@@ -473,6 +473,7 @@
 				FAEB24C4198C7F0000433EF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAEB24C5198C7F0000433EF7 /* Build configuration list for PBXNativeTarget "fisidesktopTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +482,7 @@
 				FAEB24C7198C7F0000433EF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

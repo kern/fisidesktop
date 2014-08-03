@@ -1,16 +1,15 @@
 #import "FISIAppDelegate.h"
-#import "FISIImageRequester.h"
 
 @implementation FISIAppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     const int pollSeconds = 5 * 60;
     
-    FISIImageRequester *requester = [[FISIImageRequester alloc] init];
-    [requester refresh];
+    self.requester = [[FISIImageRequester alloc] init];
+    [self.requester refresh];
     
     NSTimer *timer = [NSTimer timerWithTimeInterval:pollSeconds
-                                             target:requester
+                                             target:self.requester
                                            selector:@selector(refresh)
                                            userInfo:nil
                                             repeats:YES];
@@ -24,6 +23,10 @@
     [self.statusItem setMenu:self.menu];
     [self.statusItem setImage:[NSImage imageNamed:@"fisi"]];
     [self.statusItem setHighlightMode:YES];
+}
+
+- (IBAction)refreshClicked:(id)sender {
+    [self.requester refresh];
 }
 
 @end
