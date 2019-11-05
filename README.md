@@ -1,7 +1,7 @@
 Fuck it, Ship it for your Desktop
 =================================
 
-[Download the app](http://kernstore.s3.amazonaws.com/FISI.zip).
+[Download the app](https://github.com/kern/fisidesktop/raw/master/dist/FISI.zip).
 
 Automatically changes your desktop background every 5 minutes to a random "Fuck it, Ship it" image.
 
